@@ -24,7 +24,7 @@ $clr-attribution-text: $bright-orange;
 
 /* Breakpoints
 --------------------------------------*/
-$breakpoint-md: 768px;
+$breakpoint-md: 833px;
 
 /* Typography
 --------------------------------------*/
@@ -38,7 +38,8 @@ html,
 body,
 main,
 h1,
-p {
+p,
+input {
   margin: 0;
   padding: 0;
   box-sizing: border-box;

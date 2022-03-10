@@ -15,7 +15,8 @@ html,
 body,
 main,
 h1,
-p {
+p,
+input {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -50,7 +51,7 @@ body {
   flex-direction: column;
   padding: 0 1.5rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 833px) {
   .container {
     height: 100vh;
   }
@@ -71,7 +72,7 @@ body {
   margin: 5rem 0;
   height: max-content;
 }
-@media (min-width: 768px) {
+@media (min-width: 833px) {
   .card {
     display: flex;
     max-width: 62rem;
@@ -81,7 +82,7 @@ body {
   padding: 7rem 3rem 3.2rem 3rem;
   background-position: 3rem 3rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 833px) {
   .card-col {
     padding: 8rem 5.5% 3.2rem 5.5%;
     background-position: 21% 3rem;
@@ -98,7 +99,7 @@ body {
   line-height: 1.6rem;
   padding: 2rem 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 833px) {
   .card-col p {
     line-height: 1.6rem;
     padding: 2rem 0;
@@ -109,8 +110,9 @@ body {
   background-color: #f2f2f2;
   border: 0;
   font-size: 1.1rem;
-  padding: 1rem 2rem;
-  border-radius: 2rem;
+  height: 3rem;
+  width: 10rem;
+  border-radius: 3rem;
   border: 0.1rem solid transparent;
 }
 .card-col .btn-learn-more:hover {
@@ -125,7 +127,7 @@ body {
   background-repeat: no-repeat;
   border-radius: 0.5rem 0.5rem 0 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 833px) {
   .card-col-1 {
     border-radius: 0.5rem 0 0 0.5rem;
   }
@@ -157,7 +159,7 @@ body {
   background-repeat: no-repeat;
   border-radius: 0 0 0.5rem 0.5rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 833px) {
   .card-col-3 {
     border-radius: 0 0.5rem 0.5rem 0;
   }
