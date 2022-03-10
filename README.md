@@ -56,16 +56,18 @@ Users should be able to:
 - CSS relative units
 
 ```css
-.btn-learn-more {
-  background-color: $clr-button;
-  border: 0;
-  font-size: 1.1rem;
-  padding: 15px 30px;
-  border-radius: 25px;
-  border: 2px solid transparent;
+card-lnk {
+  display: block;
+  width: 8rem;
+  background-color: $clr-lnk;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 3rem;
+  border: 0.1rem solid transparent;
 }
-.btn-learn-more:hover {
-  border: 2px solid $clr-button;
+card-lnk:hover {
+  border: 0.1rem solid $clr-lnk;
 }
 ```
 
