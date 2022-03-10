@@ -17,4 +17,12 @@ body {
   font-size: 0.8rem;
   width: 100%;
   text-align: center;
+
+  a {
+    color: $very-dark-cyan;
+  }
+  a:hover {
+    color: $dark-cyan;
+    text-decoration: none;
+  }
 }
