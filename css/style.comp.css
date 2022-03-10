@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+/* Primary Colors
+--------------------------------------*/
+/* Neutral Colors
+--------------------------------------*/
+/* Colors by element
+--------------------------------------*/
+/* Breakpoints
+--------------------------------------*/
+/* Typography
+--------------------------------------*/
+/* Reset
+--------------------------------------*/
+html,
+body,
+main,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root
+--------------------------------------*/
+:root {
+  font-size: 15px;
+}
+
+/* Common Elements
+--------------------------------------*/
+a {
+  color: #004241;
+}
+
+a:hover {
+  color: #006970;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 1.5rem;
+}
+@media (min-width: 768px) {
+  .container {
+    height: 100vh;
+  }
+}
+
+.attribution {
+  color: #e38826;
+  font-size: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+
+/* Card
+--------------------------------------*/
+.card {
+  max-width: 40rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 5rem 0;
+  height: max-content;
+}
+@media (min-width: 768px) {
+  .card {
+    display: flex;
+    max-width: 62rem;
+  }
+}
+.card-col {
+  padding: 7rem 3rem 3.2rem 3rem;
+  background-position: 3rem 3rem;
+}
+@media (min-width: 768px) {
+  .card-col {
+    padding: 8rem 5.5% 3.2rem 5.5%;
+    background-position: 21% 3rem;
+  }
+}
+.card-col h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.5rem;
+  color: #f2f2f2;
+  text-transform: uppercase;
+}
+.card-col p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  padding: 2rem 0;
+}
+@media (min-width: 768px) {
+  .card-col p {
+    line-height: 1.6rem;
+    padding: 2rem 0;
+    height: 16rem;
+  }
+}
+.card-col .btn-learn-more {
+  background-color: #f2f2f2;
+  border: 0;
+  font-size: 1.1rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  border: 0.1rem solid transparent;
+}
+.card-col .btn-learn-more:hover {
+  border: 0.1rem solid #f2f2f2;
+}
+
+/* Card Columns
+--------------------------------------*/
+.card-col-1 {
+  background-color: #e38826;
+  background-image: url(../images/icon-sedans.svg);
+  background-repeat: no-repeat;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+@media (min-width: 768px) {
+  .card-col-1 {
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+}
+.card-col-1 .btn-learn-more {
+  color: #e38826;
+}
+.card-col-1 .btn-learn-more:hover {
+  background-color: #e38826;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.card-col-2 {
+  background-color: #006970;
+  background-image: url(../images/icon-suvs.svg);
+  background-repeat: no-repeat;
+}
+.card-col-2 .btn-learn-more {
+  color: #006970;
+}
+.card-col-2 .btn-learn-more:hover {
+  background-color: #006970;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.card-col-3 {
+  background-color: #004241;
+  background-image: url(../images/icon-luxury.svg);
+  background-repeat: no-repeat;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+@media (min-width: 768px) {
+  .card-col-3 {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+}
+.card-col-3 .btn-learn-more {
+  color: #004241;
+}
+.card-col-3 .btn-learn-more:hover {
+  background-color: #004241;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/*# sourceMappingURL=style.comp.css.map */

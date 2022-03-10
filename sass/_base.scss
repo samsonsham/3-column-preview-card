@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+/* Primary Colors
+--------------------------------------*/
+$bright-orange: hsl(31, 77%, 52%);
+$dark-cyan: hsl(184, 100%, 22%);
+$very-dark-cyan: hsl(179, 100%, 13%);
+
+/* Neutral Colors
+--------------------------------------*/
+$transparent-white: hsla(0, 0%, 100%, 0.75);
+$very-light-gray: hsl(0, 0%, 95%);
+
+/* Colors by element
+--------------------------------------*/
+$clr-bg-main: $very-light-gray;
+$clr-bg-card-col-1: $bright-orange;
+$clr-bg-card-col-2: $dark-cyan;
+$clr-bg-card-col-3: $very-dark-cyan;
+$clr-paragraph: $transparent-white;
+$clr-heading: $very-light-gray;
+$clr-button: $very-light-gray;
+$clr-attribution-text: $bright-orange;
+
+/* Breakpoints
+--------------------------------------*/
+$breakpoint-md: 768px;
+
+/* Typography
+--------------------------------------*/
+$font-size: 15px;
+$ff-primary: "Lexend Deca", sans-serif;
+$ff-secondary: "Big Shoulders Display", cursive;
+
+/* Reset
+--------------------------------------*/
+html,
+body,
+main,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root
+--------------------------------------*/
+:root {
+  font-size: $font-size;
+}
+
+/* Common Elements
+--------------------------------------*/
+a {
+  color: $very-dark-cyan;
+}
+a:hover {
+  color: $dark-cyan;
+  text-decoration: none;
+}

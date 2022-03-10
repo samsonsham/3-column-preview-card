@@ -1,0 +1,94 @@
+/* Card
+--------------------------------------*/
+.card {
+  max-width: 40rem;
+  color: $clr-paragraph;
+  margin: 5rem 0;
+  height: max-content;
+  @media (min-width: $breakpoint-md) {
+    display: flex;
+    max-width: 62rem;
+  }
+  &-col {
+    padding: 7rem 3rem 3.2rem 3rem;
+    background-position: 3rem 3rem;
+    @media (min-width: $breakpoint-md) {
+      padding: 8rem 5.5% 3.2rem 5.5%;
+      background-position: 21% 3rem;
+    }
+    h1 {
+      font-family: $ff-secondary;
+      font-size: 2.5rem;
+      color: $clr-heading;
+      text-transform: uppercase;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.6rem;
+      padding: 2rem 0;
+      @media (min-width: $breakpoint-md) {
+        line-height: 1.6rem;
+        padding: 2rem 0;
+        height: 16rem;
+      }
+    }
+    .btn-learn-more {
+      background-color: $clr-button;
+      border: 0;
+      font-size: 1.1rem;
+      padding: 1rem 2rem;
+      border-radius: 2rem;
+      border: 0.1rem solid transparent;
+    }
+    .btn-learn-more:hover {
+      border: 0.1rem solid $clr-button;
+    }
+  }
+}
+
+/* Card Columns
+--------------------------------------*/
+.card-col-1 {
+  background-color: $clr-bg-card-col-1;
+  background-image: url(../images/icon-sedans.svg);
+  background-repeat: no-repeat;
+  border-radius: 0.5rem 0.5rem 0 0;
+  @media (min-width: $breakpoint-md) {
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+  .btn-learn-more {
+    color: $clr-bg-card-col-1;
+  }
+  .btn-learn-more:hover {
+    background-color: $clr-bg-card-col-1;
+    color: $clr-paragraph;
+  }
+}
+.card-col-2 {
+  background-color: $clr-bg-card-col-2;
+  background-image: url(../images/icon-suvs.svg);
+  background-repeat: no-repeat;
+  .btn-learn-more {
+    color: $clr-bg-card-col-2;
+  }
+  .btn-learn-more:hover {
+    background-color: $clr-bg-card-col-2;
+    color: $clr-paragraph;
+  }
+}
+.card-col-3 {
+  background-color: $clr-bg-card-col-3;
+  background-image: url(../images/icon-luxury.svg);
+  background-repeat: no-repeat;
+  border-radius: 0 0 0.5rem 0.5rem;
+  @media (min-width: $breakpoint-md) {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+  .btn-learn-more {
+    color: $clr-bg-card-col-3;
+  }
+  .btn-learn-more:hover {
+    background-color: $clr-bg-card-col-3;
+    color: $clr-paragraph;
+  }
+}
